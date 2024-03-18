@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zombicide Character Manager</title>
+</head>
+<body>
+    <h1>Welcome to Zombicide Character Manager</h1>
+    <div id="token"></div>
+    <div>
+        <label for="playerName">Enter your name:</label>
+        <input type="text" id="playerName">
+        <button onclick="registerPlayer()">Submit</button>
+    </div>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
